@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import CartPage from './components/CartPage';

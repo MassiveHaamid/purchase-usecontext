@@ -1,4 +1,3 @@
-// components/productsData.jsx
 export const products = [
   {
     id: 1,
