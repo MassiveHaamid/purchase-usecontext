@@ -67,7 +67,7 @@ function CartPage() {
                 </td>
                 <td>${item.price}</td>
                 <td>
-{cartItems.some(cartItem => cartItem.id === item.id && cartItem.quantity > 0) ? (
+                  {cartItems.some(cartItem => cartItem.id === item.id && cartItem.quantity > 0) ? (
                   <Button variant="danger" onClick={() => removeItem(item.id)}>Remove</Button>
                       ) : (
                   <Button variant="primary" onClick={() => addToCart(item.id)}>Add</Button>
